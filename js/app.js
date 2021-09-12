@@ -1,5 +1,7 @@
 const loadProducts = () => {
-  const url = `https://fakestoreapi.com/products`;
+  // const url = `https://fakestoreapi.com/products`;
+  // suing temporary json file for api problem
+  const url = `apiData.json`;
   fetch(url)
     .then((response) => response.json())
     .then((data) => showProducts(data));
