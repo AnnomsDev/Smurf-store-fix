@@ -2,6 +2,10 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+#brand{
+  font-weight: 900;
+  text-align: center;
+}
 .smurf-search{
   width: 25%;
   margin: 60px auto;
