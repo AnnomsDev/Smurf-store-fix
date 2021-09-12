@@ -1,5 +1,4 @@
 const loadProducts = () => {
-  // const url = `https://fakestoreapi.com/products`;
   // uing temporary json file for api problem
   const url = `apiData.json`;
   fetch(url)
